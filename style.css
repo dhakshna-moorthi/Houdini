@@ -1,0 +1,89 @@
+/* Basic Reset */
+body, h1, h4, form, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input.box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input.box:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button Styles */
+#submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Styles */
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: 'green'
+}
+
+#attempts {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.hide-text {
+    color: transparent; /* Makes the text invisible */
+    text-shadow: 0 0 0 rgba(0,0,0,0); /* Ensures no text shadow is visible */
+}
