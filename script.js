@@ -11,7 +11,7 @@ const numberWords = {
 
 
 let numbers = [];
-for (let i = 1; i <= grid*2; i++) {
+for (let i = 1; i <= (grid**2)/2; i++) {
     numbers.push(i);
     numbers.push(i);
 }
