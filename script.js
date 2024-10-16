@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } 
 
-            if (score==grid*2) {
+            if (score==(grid*grid)/2) {
                 document.getElementById('result').innerHTML = "Congrats, you've solved it!"
                 document.getElementById('result').style.color = "#4CAF50"
                 document.getElementById('attempts').innerHTML = "Number of attempts: "+attempts
